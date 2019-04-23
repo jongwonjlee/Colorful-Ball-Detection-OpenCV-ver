@@ -343,7 +343,7 @@ void on_high_v_thresh_trackbar_red(int, void *){
     high_v_r = max(high_v_r, low_v_r+1);
 }
 
-// Trackbar for image threshodling in HSV colorspace : Blue
+// Trackbar for image threshodling in HSV colorspace : Blue color
 void on_low_h_thresh_trackbar_blue(int, void *){
     setTrackbarPos("Low H","Object Detection_HSV_Blue", low_h_b);
 }

@@ -55,7 +55,7 @@ int kernel_size_b = 3;
 /* setup default parameters */
 float fball_radius = 0.075;
 
-// Initialization of variable for camera calibration paramters >>change to our own value!!!!
+// Initialization of variable for camera calibration paramters >>change to our own value!!!!!
 Mat distCoeffs;
 float intrinsic_data[9] = {648.494831, 0, 330.912390, 0, 649.675640,246.894210, 0, 0, 1};
 float distortion_data[5] = {0.042623, -0.140928, -0.001380, -0.005298,0};
